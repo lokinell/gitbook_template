@@ -5,7 +5,7 @@
 
 ## 简介
 
-`crifan`的`Gitbook`模版，用于演示如何创建一个自己的`Gitbook`
+`Loki`的`Gitbook`模版，用于演示如何创建一个自己的`Gitbook`
 
 ## 源码+浏览+下载
 

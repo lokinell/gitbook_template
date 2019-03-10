@@ -136,10 +136,6 @@ bDict should use deepcopy, otherwise will be altered after call this function !!
 
 
 def saveJsonToFile(jsonDict, fullFilename, indent=2, fileEncoding="utf-8"):
-  """
-    save dict json into file
-    for non-ascii string, output encoded string, without \uxxxx
-  """
   with codecs.open(fullFilename, 'w', encoding="utf-8") as outputFp:
       json.dump(jsonDict, outputFp, indent=indent, ensure_ascii=False)
 

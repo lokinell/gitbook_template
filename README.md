@@ -209,3 +209,9 @@ Targets:
   deploy                    Deploy = upload and commit for generated files
   help                      Show help
 ```
+
+### 文件
+1. InstallRequiredError: "ebook-convert" is not installed.
+Install it from Calibre: https://calibre-ebook.com
+
+    解决办法： 1. 安装calibre， 2. `ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin`
